@@ -2,15 +2,9 @@
 
 /* Document
    ========================================================================== */
-/* ---------------------------------------- */
-/* Stu's Addition */
-/* makes sizing simpler */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/* ---------------------------------------- */
+/* My additions at the very bottom */
 /* ---------------------------------------- */
 
 /**
@@ -359,3 +353,23 @@ template {
 [hidden] {
   display: none;
 }
+
+/* ---------------------------------------- */
+/* Stu's Addition */
+
+/* makes sizing simpler */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* no margins or padding */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------- */
