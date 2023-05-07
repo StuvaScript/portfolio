@@ -11,17 +11,6 @@
   src: url(./fonts/Allura/Allura-Regular.ttf);
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: var(--background);
-  color: var(--light);
-  padding: 20px;
-}
-
-body > * {
-  height: 100vh;
-}
-
 *::before {
   font-family: Allura;
   color: var(--dark-grey);
@@ -29,7 +18,7 @@ body > * {
   font-weight: 100;
   position: absolute;
   left: -1rem;
-  top: -1.5rem;
+  top: -1.25rem;
 }
 
 *::after {
@@ -50,11 +39,36 @@ body > * {
   color: var(--accent-color);
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--light);
+  padding: 30px;
+  position: relative;
+  font-size: 0.9rem;
+}
+
+body > * {
+  height: 100vh;
+}
+
+body::before {
+  content: '<body>';
+  top: 0.5rem;
+  left: 0.8rem;
+}
+
+body::after {
+  content: '</body>';
+  bottom: 0.5rem;
+  left: 0.8rem;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 h1 {
@@ -62,6 +76,7 @@ h1 {
   flex-direction: column;
   position: relative;
   font-size: 40px;
+  margin: 0;
 }
 
 h1::before {
@@ -72,12 +87,30 @@ h1::after {
   content: '</h1>';
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 h2 {
   color: var(--accent-color);
+  position: relative;
+  font-size: 40px;
+}
+
+h2::before {
+  content: '<h2>';
+}
+
+h2::after {
+  content: '</h2>';
 }
 
 p {
   position: relative;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
 }
 
 p:first-of-type:before {
