@@ -598,6 +598,46 @@ module.exports = __webpack_require__.p + "a8518735f3912e9d4ba3.ttf";
 
 /***/ }),
 
+/***/ "./src/images/calculatron.png":
+/*!************************************!*\
+  !*** ./src/images/calculatron.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "fd98ef667e17b62fdbd2.png";
+
+/***/ }),
+
+/***/ "./src/images/conversion-bot.png":
+/*!***************************************!*\
+  !*** ./src/images/conversion-bot.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "74cbe8058cff65f70f1d.png";
+
+/***/ }),
+
+/***/ "./src/images/library.png":
+/*!********************************!*\
+  !*** ./src/images/library.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1070bc6c2a99abdfd8df.png";
+
+/***/ }),
+
+/***/ "./src/images/restaurant-page.png":
+/*!****************************************!*\
+  !*** ./src/images/restaurant-page.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e8c4b30031304600d05d.png";
+
+/***/ }),
+
 /***/ "./src/images/rps.png":
 /*!****************************!*\
   !*** ./src/images/rps.png ***!
@@ -605,6 +645,16 @@ module.exports = __webpack_require__.p + "a8518735f3912e9d4ba3.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "f67d4567d8d2c8653ac9.png";
+
+/***/ }),
+
+/***/ "./src/images/tictactoe.png":
+/*!**********************************!*\
+  !*** ./src/images/tictactoe.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "44ca070e3225fa45137c.png";
 
 /***/ })
 
@@ -755,12 +805,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./normalize.css */ "./src/normalize.css");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _images_rps_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/rps.png */ "./src/images/rps.png");
+/* harmony import */ var _images_calculatron_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/calculatron.png */ "./src/images/calculatron.png");
+/* harmony import */ var _images_conversion_bot_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/conversion-bot.png */ "./src/images/conversion-bot.png");
+/* harmony import */ var _images_library_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/library.png */ "./src/images/library.png");
+/* harmony import */ var _images_restaurant_page_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/restaurant-page.png */ "./src/images/restaurant-page.png");
+/* harmony import */ var _images_tictactoe_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/tictactoe.png */ "./src/images/tictactoe.png");
 
 
 
 
-const rpsImage = document.querySelector('.butts');
-rpsImage.setAttribute('src', _images_rps_png__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+
+const rpsImg = document.querySelector('.rpsImg');
+rpsImg.setAttribute('src', _images_rps_png__WEBPACK_IMPORTED_MODULE_2__);
+
+const calImg = document.querySelector('.calImg');
+calImg.setAttribute('src', _images_calculatron_png__WEBPACK_IMPORTED_MODULE_3__);
+
+const convImg = document.querySelector('.convImg');
+convImg.setAttribute('src', _images_conversion_bot_png__WEBPACK_IMPORTED_MODULE_4__);
+
+const libImg = document.querySelector('.libImg');
+libImg.setAttribute('src', _images_library_png__WEBPACK_IMPORTED_MODULE_5__);
+
+const restImg = document.querySelector('.restImg');
+restImg.setAttribute('src', _images_restaurant_page_png__WEBPACK_IMPORTED_MODULE_6__);
+
+const tttImg = document.querySelector('.tttImg');
+tttImg.setAttribute('src', _images_tictactoe_png__WEBPACK_IMPORTED_MODULE_7__);
 
 })();
 
