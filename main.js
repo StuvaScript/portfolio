@@ -596,6 +596,16 @@ module.exports = styleTagTransform;
 
 module.exports = __webpack_require__.p + "a8518735f3912e9d4ba3.ttf";
 
+/***/ }),
+
+/***/ "./src/images/rps.png":
+/*!****************************!*\
+  !*** ./src/images/rps.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "f67d4567d8d2c8653ac9.png";
+
 /***/ })
 
 /******/ 	});
@@ -744,8 +754,13 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./normalize.css */ "./src/normalize.css");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _images_rps_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/rps.png */ "./src/images/rps.png");
 
 
+
+
+const rpsImage = document.querySelector('.butts');
+rpsImage.setAttribute('src', _images_rps_png__WEBPACK_IMPORTED_MODULE_2__);
 
 })();
 
