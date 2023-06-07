@@ -232,3 +232,25 @@ a:active {
     border-radius: inherit;
   }
 }
+
+.resume-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res-pic {
+  height: 50%;
+  border-radius: 5px;
+  transform: scale(1);
+  transition-duration: 0.35s;
+  transition-timing-function: ease-in-out;
+}
+
+.res-pic:hover {
+  border-radius: 50px 10px;
+  transform: scale(1.1);
+  transition-duration: 0.35s;
+  transition-timing-function: ease-in-out;
+}

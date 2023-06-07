@@ -6,6 +6,7 @@ import conv from './images/conversion-bot.png';
 import lib from './images/library.png';
 import rest from './images/restaurant-page.png';
 import ttt from './images/tictactoe.png';
+import resumePic from './images/resume-pic.png';
 
 const rpsImg = document.querySelector('.rpsImg');
 rpsImg.setAttribute('src', rps);
@@ -24,3 +25,6 @@ restImg.setAttribute('src', rest);
 
 const tttImg = document.querySelector('.tttImg');
 tttImg.setAttribute('src', ttt);
+
+const resPic = document.querySelector('.res-pic');
+resPic.setAttribute('src', resumePic);
