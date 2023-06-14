@@ -39,6 +39,8 @@
   color: var(--accent-color);
 }
 
+/* Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--background);
