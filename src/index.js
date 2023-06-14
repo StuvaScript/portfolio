@@ -7,6 +7,7 @@ import lib from './images/library.png';
 import rest from './images/restaurant-page.png';
 import ttt from './images/tictactoe.png';
 import resumePic from './images/resume-pic.png';
+import pdf from './files/My-Technical-Resume.pdf';
 
 const rpsImg = document.querySelector('.rpsImg');
 rpsImg.setAttribute('src', rps);
@@ -28,3 +29,6 @@ tttImg.setAttribute('src', ttt);
 
 const resPic = document.querySelector('.res-pic');
 resPic.setAttribute('src', resumePic);
+
+const pdfResume = document.querySelector('.res-anchor');
+pdfResume.setAttribute('href', pdf);

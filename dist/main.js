@@ -588,6 +588,16 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/files/My-Technical-Resume.pdf":
+/*!*******************************************!*\
+  !*** ./src/files/My-Technical-Resume.pdf ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4222ce4d9ef7501f8609.pdf";
+
+/***/ }),
+
 /***/ "./src/fonts/Allura/Allura-Regular.ttf":
 /*!*********************************************!*\
   !*** ./src/fonts/Allura/Allura-Regular.ttf ***!
@@ -821,6 +831,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_restaurant_page_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/restaurant-page.png */ "./src/images/restaurant-page.png");
 /* harmony import */ var _images_tictactoe_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/tictactoe.png */ "./src/images/tictactoe.png");
 /* harmony import */ var _images_resume_pic_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/resume-pic.png */ "./src/images/resume-pic.png");
+/* harmony import */ var _files_My_Technical_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./files/My-Technical-Resume.pdf */ "./src/files/My-Technical-Resume.pdf");
+
 
 
 
@@ -851,6 +863,9 @@ tttImg.setAttribute('src', _images_tictactoe_png__WEBPACK_IMPORTED_MODULE_7__);
 
 const resPic = document.querySelector('.res-pic');
 resPic.setAttribute('src', _images_resume_pic_png__WEBPACK_IMPORTED_MODULE_8__);
+
+const pdfResume = document.querySelector('.res-anchor');
+pdfResume.setAttribute('href', _files_My_Technical_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__);
 
 })();
 
