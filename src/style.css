@@ -3,7 +3,7 @@
   --dark-grey: rgb(107, 107, 107);
   --light-grey: rgb(153, 153, 153);
   --light: white;
-  --accent-color: #08fdd8;
+  --accent-color: rgb(8, 253, 216);
 }
 
 @font-face {
@@ -39,13 +39,13 @@
   color: var(--accent-color);
 }
 
-/* Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */
+/* TODO Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--background);
   color: var(--light);
-  padding: 30px;
+  padding: 0px 30px;
   position: relative;
   font-size: 0.9rem;
 }
@@ -215,26 +215,6 @@ a:active {
   transition-timing-function: ease-in-out;
 }
 
-/* ---- Media Queries ---- */
-
-@media (max-width: 40em) {
-  .card {
-    opacity: 1;
-  }
-
-  .card:hover {
-    transform: scale(1);
-  }
-
-  .img-info {
-    opacity: 1;
-  }
-
-  .card:hover > img {
-    border-radius: inherit;
-  }
-}
-
 .resume-container {
   height: 100%;
   display: flex;
@@ -259,4 +239,45 @@ a:active {
   transform: scale(1.1);
   transition-duration: 0.35s;
   transition-timing-function: ease-in-out;
+}
+
+.contact-container {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-container img {
+  width: 15vh;
+  transform: scale(1);
+  transition-duration: 0.35s;
+  transition-timing-function: ease-in-out;
+}
+
+.contact-container img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.35s;
+  transition-timing-function: ease-in-out;
+}
+
+/* ! ``**Media Queries**`` */
+
+@media (max-width: 40em) {
+  .card {
+    opacity: 1;
+  }
+
+  .card:hover {
+    transform: scale(1);
+  }
+
+  .img-info {
+    opacity: 1;
+  }
+
+  .card:hover > img {
+    border-radius: inherit;
+  }
 }
