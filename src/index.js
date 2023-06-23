@@ -8,9 +8,19 @@ import rest from './images/restaurant-page.png';
 import ttt from './images/tictactoe.png';
 import resumePic from './images/resume-pic.png';
 import pdf from './files/My-Technical-Resume.pdf';
-import iconGithub from './icons/github.png';
-import iconEmail from './icons/email.png';
-import iconLinkedIn from './icons/linkedin.png';
+import bigIconGithub from './icons/github.png';
+import bigIconEmail from './icons/email.png';
+import bigIconLinkedIn from './icons/linkedin.png';
+import iconHtml from './icons/html-5.png';
+import iconCss from './icons/css-3.png';
+import iconJs from './icons/js.png';
+import iconNode from './icons/nodejs.svg';
+import iconWebpack from './icons/webpack.svg';
+import iconVscode from './icons/icons8-vs-code.svg';
+import iconGithub from './icons/github.svg';
+import iconDevtools from './icons/browser.png';
+import iconEslint from './icons/eslint.svg';
+import iconPrettier from './icons/prettier.svg';
 
 // // Unused code gets this badass strikeout
 
@@ -45,10 +55,40 @@ pdfResume.setAttribute('href', pdf);
 // * ``**Icons**``
 
 const github = document.querySelector('.github-icon');
-github.setAttribute('src', iconGithub);
+github.setAttribute('src', bigIconGithub);
 
 const email = document.querySelector('.email-icon');
-email.setAttribute('src', iconEmail);
+email.setAttribute('src', bigIconEmail);
 
 const linkedin = document.querySelector('.linkedin-icon');
-linkedin.setAttribute('src', iconLinkedIn);
+linkedin.setAttribute('src', bigIconLinkedIn);
+
+const theIconHtml = document.querySelector('#icon-html');
+theIconHtml.setAttribute('src', iconHtml);
+
+const theIconCss = document.querySelector('#icon-css');
+theIconCss.setAttribute('src', iconCss);
+
+const theIconJs = document.querySelector('#icon-js');
+theIconJs.setAttribute('src', iconJs);
+
+const theIconNode = document.querySelector('#icon-node');
+theIconNode.setAttribute('src', iconNode);
+
+const theIconWebpack = document.querySelector('#icon-webpack');
+theIconWebpack.setAttribute('src', iconWebpack);
+
+const theIconVscode = document.querySelector('#icon-vscode');
+theIconVscode.setAttribute('src', iconVscode);
+
+const theIconGithub = document.querySelector('#icon-github');
+theIconGithub.setAttribute('src', iconGithub);
+
+const theIconDevtools = document.querySelector('#icon-devtools');
+theIconDevtools.setAttribute('src', iconDevtools);
+
+const theIconEslint = document.querySelector('#icon-eslint');
+theIconEslint.setAttribute('src', iconEslint);
+
+const theIconPrettier = document.querySelector('#icon-prettier');
+theIconPrettier.setAttribute('src', iconPrettier);

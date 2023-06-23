@@ -52,7 +52,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --background: #1d1d1d;\n  --dark-grey: rgb(107, 107, 107);\n  --light-grey: rgb(153, 153, 153);\n  --light: white;\n  --accent-color: rgb(8, 253, 216);\n}\n\n@font-face {\n  font-family: 'Allura';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n*::before {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  top: -1.25rem;\n}\n\n*::after {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  bottom: -1.5rem;\n}\n\n.light-grey {\n  color: var(--light-grey);\n}\n\n.accent {\n  color: var(--accent-color);\n}\n\n/* TODO Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  background: var(--background);\n  color: var(--light);\n  padding: 0px 30px;\n  position: relative;\n  font-size: 0.9rem;\n}\n\nbody > * {\n  height: 100vh;\n}\n\nbody::before {\n  content: '<body>';\n  top: 0.5rem;\n  left: 0.8rem;\n}\n\nbody::after {\n  content: '</body>';\n  bottom: 0.5rem;\n  left: 0.8rem;\n}\n\n.hero {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n}\n\nh1 {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  font-size: 40px;\n  margin: 0;\n}\n\nh1::before {\n  content: '<h1>';\n}\n\nh1::after {\n  content: '</h1>';\n}\n\n.about {\n  display: flex;\n  flex-direction: column;\n  gap: 50px;\n}\n\nh2 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 40px;\n}\n\nh2::before {\n  content: '<h2>';\n}\n\nh2::after {\n  content: '</h2>';\n}\n\np {\n  position: relative;\n  line-height: 1.5rem;\n  letter-spacing: 0.3px;\n}\n\np:first-of-type:before {\n  content: '<p>';\n}\n\np:last-of-type:after {\n  content: '</p>';\n}\n\nh3 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 18px;\n}\n\na:link,\na:visited,\na:hover,\na:active {\n  color: inherit;\n  text-decoration: none;\n}\n\n.tech-list {\n  list-style-type: none;\n  display: flex;\n  flex-wrap: wrap;\n  row-gap: 0.6rem;\n  column-gap: 2rem;\n  justify-content: center;\n}\n\n.projects {\n  height: auto;\n}\n\n.container {\n  margin: 50px 0;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n}\n\n.card {\n  position: relative;\n  z-index: 0;\n  opacity: 0.5;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card:hover {\n  z-index: 1;\n  opacity: 1;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card > img {\n  width: 100%;\n  height: 100%;\n}\n\n.card:hover > img {\n  border-radius: 3px;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.img-info {\n  width: 70%;\n  height: auto;\n  padding: 10px;\n  color: var(--light);\n  font-size: 1.25rem;\n  text-align: center;\n  background: rgba(29, 29, 29, 0.95);\n  border-radius: 5px;\n  opacity: 0;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 5px;\n}\n\n.card:hover > .img-info {\n  opacity: 1;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.resume-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.res-anchor {\n  height: 50%;\n}\n\n.res-pic {\n  height: 100%;\n  border-radius: 5px;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.res-pic:hover {\n  border-radius: 50px 10px;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container {\n  height: 90%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.contact-container img {\n  width: 15vh;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container img:hover {\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n/* ! ``**Media Queries**`` */\n\n@media (max-width: 40em) {\n  .card {\n    opacity: 1;\n  }\n\n  .card:hover {\n    transform: scale(1);\n  }\n\n  .img-info {\n    opacity: 1;\n  }\n\n  .card:hover > img {\n    border-radius: inherit;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,+BAA+B;EAC/B,gCAAgC;EAChC,cAAc;EACd,gCAAgC;AAClC;;AAEA;EACE,qBAAqB;EACrB,4CAA2C;AAC7C;;AAEA;EACE,mBAAmB;EACnB,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,WAAW;EACX,aAAa;AACf;;AAEA;EACE,mBAAmB;EACnB,uBAAuB;EACvB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,WAAW;EACX,eAAe;AACjB;;AAEA;EACE,wBAAwB;AAC1B;;AAEA;EACE,0BAA0B;AAC5B;;AAEA,mLAAmL;;AAEnL;EACE,yCAAyC;EACzC,6BAA6B;EAC7B,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;EAClB,iBAAiB;AACnB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,cAAc;EACd,YAAY;AACd;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,SAAS;AACX;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,kBAAkB;EAClB,eAAe;EACf,SAAS;AACX;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,SAAS;AACX;;AAEA;EACE,0BAA0B;EAC1B,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,qBAAqB;AACvB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,0BAA0B;EAC1B,kBAAkB;EAClB,eAAe;AACjB;;AAEA;;;;EAIE,cAAc;EACd,qBAAqB;AACvB;;AAEA;EACE,qBAAqB;EACrB,aAAa;EACb,eAAe;EACf,eAAe;EACf,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,cAAc;EACd,aAAa;EACb,2DAA2D;AAC7D;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,YAAY;EACZ,mBAAmB;EACnB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,UAAU;EACV,UAAU;EACV,qBAAqB;EACrB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,kBAAkB;EAClB,kBAAkB;EAClB,kCAAkC;EAClC,kBAAkB;EAClB,UAAU;EACV,0BAA0B;EAC1B,uCAAuC;;EAEvC,kBAAkB;EAClB,SAAS;EACT,QAAQ;EACR,gCAAgC;;EAEhC,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,QAAQ;AACV;;AAEA;EACE,UAAU;EACV,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,kBAAkB;EAClB,mBAAmB;EACnB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,wBAAwB;EACxB,qBAAqB;EACrB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,WAAW;EACX,aAAa;EACb,sBAAsB;EACtB,6BAA6B;EAC7B,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,mBAAmB;EACnB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA;EACE,qBAAqB;EACrB,0BAA0B;EAC1B,uCAAuC;AACzC;;AAEA,4BAA4B;;AAE5B;EACE;IACE,UAAU;EACZ;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,UAAU;EACZ;;EAEA;IACE,sBAAsB;EACxB;AACF","sourcesContent":[":root {\n  --background: #1d1d1d;\n  --dark-grey: rgb(107, 107, 107);\n  --light-grey: rgb(153, 153, 153);\n  --light: white;\n  --accent-color: rgb(8, 253, 216);\n}\n\n@font-face {\n  font-family: 'Allura';\n  src: url(./fonts/Allura/Allura-Regular.ttf);\n}\n\n*::before {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  top: -1.25rem;\n}\n\n*::after {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  bottom: -1.5rem;\n}\n\n.light-grey {\n  color: var(--light-grey);\n}\n\n.accent {\n  color: var(--accent-color);\n}\n\n/* TODO Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  background: var(--background);\n  color: var(--light);\n  padding: 0px 30px;\n  position: relative;\n  font-size: 0.9rem;\n}\n\nbody > * {\n  height: 100vh;\n}\n\nbody::before {\n  content: '<body>';\n  top: 0.5rem;\n  left: 0.8rem;\n}\n\nbody::after {\n  content: '</body>';\n  bottom: 0.5rem;\n  left: 0.8rem;\n}\n\n.hero {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n}\n\nh1 {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  font-size: 40px;\n  margin: 0;\n}\n\nh1::before {\n  content: '<h1>';\n}\n\nh1::after {\n  content: '</h1>';\n}\n\n.about {\n  display: flex;\n  flex-direction: column;\n  gap: 50px;\n}\n\nh2 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 40px;\n}\n\nh2::before {\n  content: '<h2>';\n}\n\nh2::after {\n  content: '</h2>';\n}\n\np {\n  position: relative;\n  line-height: 1.5rem;\n  letter-spacing: 0.3px;\n}\n\np:first-of-type:before {\n  content: '<p>';\n}\n\np:last-of-type:after {\n  content: '</p>';\n}\n\nh3 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 18px;\n}\n\na:link,\na:visited,\na:hover,\na:active {\n  color: inherit;\n  text-decoration: none;\n}\n\n.tech-list {\n  list-style-type: none;\n  display: flex;\n  flex-wrap: wrap;\n  row-gap: 0.6rem;\n  column-gap: 2rem;\n  justify-content: center;\n}\n\n.projects {\n  height: auto;\n}\n\n.container {\n  margin: 50px 0;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n}\n\n.card {\n  position: relative;\n  z-index: 0;\n  opacity: 0.5;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card:hover {\n  z-index: 1;\n  opacity: 1;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card > img {\n  width: 100%;\n  height: 100%;\n}\n\n.card:hover > img {\n  border-radius: 3px;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.img-info {\n  width: 70%;\n  height: auto;\n  padding: 10px;\n  color: var(--light);\n  font-size: 1.25rem;\n  text-align: center;\n  background: rgba(29, 29, 29, 0.95);\n  border-radius: 5px;\n  opacity: 0;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 5px;\n}\n\n.card:hover > .img-info {\n  opacity: 1;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.resume-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.res-anchor {\n  height: 50%;\n}\n\n.res-pic {\n  height: 100%;\n  border-radius: 5px;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.res-pic:hover {\n  border-radius: 50px 10px;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container {\n  height: 90%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.contact-container img {\n  width: 15vh;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container img:hover {\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n/* ! ``**Media Queries**`` */\n\n@media (max-width: 40em) {\n  .card {\n    opacity: 1;\n  }\n\n  .card:hover {\n    transform: scale(1);\n  }\n\n  .img-info {\n    opacity: 1;\n  }\n\n  .card:hover > img {\n    border-radius: inherit;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n  --background: #1d1d1d;\n  --dark-grey: rgb(107, 107, 107);\n  --light-grey: rgb(153, 153, 153);\n  --light: white;\n  --accent-color: rgb(8, 253, 216);\n}\n\n@font-face {\n  font-family: 'Allura';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n*::before {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  top: -1.25rem;\n}\n\n*::after {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  bottom: -1.5rem;\n}\n\n.light-grey {\n  color: var(--light-grey);\n}\n\n.accent {\n  color: var(--accent-color);\n}\n\n/* TODO Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  background: var(--background);\n  color: var(--light);\n  padding: 0px 30px;\n  position: relative;\n  font-size: 0.9rem;\n}\n\nbody > * {\n  height: 100vh;\n}\n\nbody::before {\n  content: '<body>';\n  top: 0.5rem;\n  left: 0.8rem;\n}\n\nbody::after {\n  content: '</body>';\n  bottom: 0.5rem;\n  left: 0.8rem;\n}\n\n.hero {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n}\n\nh1 {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  font-size: 40px;\n  margin: 0;\n}\n\nh1::before {\n  content: '<h1>';\n}\n\nh1::after {\n  content: '</h1>';\n}\n\n.about {\n  display: flex;\n  flex-direction: column;\n  gap: 50px;\n}\n\nh2 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 40px;\n}\n\nh2::before {\n  content: '<h2>';\n}\n\nh2::after {\n  content: '</h2>';\n}\n\np {\n  position: relative;\n  line-height: 1.5rem;\n  letter-spacing: 0.3px;\n}\n\np:first-of-type:before {\n  content: '<p>';\n}\n\np:last-of-type:after {\n  content: '</p>';\n}\n\nh3 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 18px;\n}\n\na:link,\na:visited,\na:hover,\na:active {\n  color: inherit;\n  text-decoration: none;\n}\n\n.tech-list {\n  list-style-type: none;\n  display: flex;\n  flex-wrap: wrap;\n  row-gap: 0.6rem;\n  column-gap: 2rem;\n  justify-content: center;\n}\n\n.projects {\n  height: auto;\n}\n\n.container {\n  margin: 50px 0;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n}\n\n.card {\n  position: relative;\n  z-index: 0;\n  opacity: 0.5;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card:hover {\n  z-index: 1;\n  opacity: 1;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card > img {\n  width: 100%;\n  height: 100%;\n}\n\n.card:hover > img {\n  border-radius: 3px;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.img-info {\n  width: 70%;\n  height: auto;\n  padding: 10px;\n  color: var(--light);\n  font-size: 1.25rem;\n  text-align: center;\n  background: rgba(29, 29, 29, 0.95);\n  border-radius: 5px;\n  opacity: 0;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 5px;\n}\n\n.card:hover > .img-info {\n  opacity: 1;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.tech-list img {\n  width: 50px;\n}\n\n.resume-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.res-anchor {\n  height: 50%;\n}\n\n.res-pic {\n  height: 100%;\n  border-radius: 5px;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.res-pic:hover {\n  border-radius: 50px 10px;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container {\n  height: 90%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.contact-container img {\n  width: 15vh;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container img:hover {\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n/* ! ``**Media Queries**`` */\n\n@media (max-width: 40em) {\n  .card {\n    opacity: 1;\n  }\n\n  .card:hover {\n    transform: scale(1);\n  }\n\n  .img-info {\n    opacity: 1;\n  }\n\n  .card:hover > img {\n    border-radius: inherit;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":[":root {\n  --background: #1d1d1d;\n  --dark-grey: rgb(107, 107, 107);\n  --light-grey: rgb(153, 153, 153);\n  --light: white;\n  --accent-color: rgb(8, 253, 216);\n}\n\n@font-face {\n  font-family: 'Allura';\n  src: url(./fonts/Allura/Allura-Regular.ttf);\n}\n\n*::before {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  top: -1.25rem;\n}\n\n*::after {\n  font-family: Allura;\n  color: var(--dark-grey);\n  font-size: 1.25rem;\n  font-weight: 100;\n  position: absolute;\n  left: -1rem;\n  bottom: -1.5rem;\n}\n\n.light-grey {\n  color: var(--light-grey);\n}\n\n.accent {\n  color: var(--accent-color);\n}\n\n/* TODO Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  background: var(--background);\n  color: var(--light);\n  padding: 0px 30px;\n  position: relative;\n  font-size: 0.9rem;\n}\n\nbody > * {\n  height: 100vh;\n}\n\nbody::before {\n  content: '<body>';\n  top: 0.5rem;\n  left: 0.8rem;\n}\n\nbody::after {\n  content: '</body>';\n  bottom: 0.5rem;\n  left: 0.8rem;\n}\n\n.hero {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  gap: 50px;\n}\n\nh1 {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  font-size: 40px;\n  margin: 0;\n}\n\nh1::before {\n  content: '<h1>';\n}\n\nh1::after {\n  content: '</h1>';\n}\n\n.about {\n  display: flex;\n  flex-direction: column;\n  gap: 50px;\n}\n\nh2 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 40px;\n}\n\nh2::before {\n  content: '<h2>';\n}\n\nh2::after {\n  content: '</h2>';\n}\n\np {\n  position: relative;\n  line-height: 1.5rem;\n  letter-spacing: 0.3px;\n}\n\np:first-of-type:before {\n  content: '<p>';\n}\n\np:last-of-type:after {\n  content: '</p>';\n}\n\nh3 {\n  color: var(--accent-color);\n  position: relative;\n  font-size: 18px;\n}\n\na:link,\na:visited,\na:hover,\na:active {\n  color: inherit;\n  text-decoration: none;\n}\n\n.tech-list {\n  list-style-type: none;\n  display: flex;\n  flex-wrap: wrap;\n  row-gap: 0.6rem;\n  column-gap: 2rem;\n  justify-content: center;\n}\n\n.projects {\n  height: auto;\n}\n\n.container {\n  margin: 50px 0;\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n}\n\n.card {\n  position: relative;\n  z-index: 0;\n  opacity: 0.5;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card:hover {\n  z-index: 1;\n  opacity: 1;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.card > img {\n  width: 100%;\n  height: 100%;\n}\n\n.card:hover > img {\n  border-radius: 3px;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.img-info {\n  width: 70%;\n  height: auto;\n  padding: 10px;\n  color: var(--light);\n  font-size: 1.25rem;\n  text-align: center;\n  background: rgba(29, 29, 29, 0.95);\n  border-radius: 5px;\n  opacity: 0;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  gap: 5px;\n}\n\n.card:hover > .img-info {\n  opacity: 1;\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.tech-list img {\n  width: 50px;\n}\n\n.resume-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.res-anchor {\n  height: 50%;\n}\n\n.res-pic {\n  height: 100%;\n  border-radius: 5px;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.res-pic:hover {\n  border-radius: 50px 10px;\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container {\n  height: 90%;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.contact-container img {\n  width: 15vh;\n  transform: scale(1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n.contact-container img:hover {\n  transform: scale(1.1);\n  transition-duration: 0.35s;\n  transition-timing-function: ease-in-out;\n}\n\n/* ! ``**Media Queries**`` */\n\n@media (max-width: 40em) {\n  .card {\n    opacity: 1;\n  }\n\n  .card:hover {\n    transform: scale(1);\n  }\n\n  .img-info {\n    opacity: 1;\n  }\n\n  .card:hover > img {\n    border-radius: inherit;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -608,6 +608,26 @@ module.exports = __webpack_require__.p + "a8518735f3912e9d4ba3.ttf";
 
 /***/ }),
 
+/***/ "./src/icons/browser.png":
+/*!*******************************!*\
+  !*** ./src/icons/browser.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "2e4a7982fa74697c0c64.png";
+
+/***/ }),
+
+/***/ "./src/icons/css-3.png":
+/*!*****************************!*\
+  !*** ./src/icons/css-3.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4a6549b8c2b4cda8bb88.png";
+
+/***/ }),
+
 /***/ "./src/icons/email.png":
 /*!*****************************!*\
   !*** ./src/icons/email.png ***!
@@ -615,6 +635,16 @@ module.exports = __webpack_require__.p + "a8518735f3912e9d4ba3.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "a49e015815e3ac6d2bd3.png";
+
+/***/ }),
+
+/***/ "./src/icons/eslint.svg":
+/*!******************************!*\
+  !*** ./src/icons/eslint.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "458c3d82205fb94ffb23.svg";
 
 /***/ }),
 
@@ -628,6 +658,46 @@ module.exports = __webpack_require__.p + "553c66159c5672f25df6.png";
 
 /***/ }),
 
+/***/ "./src/icons/github.svg":
+/*!******************************!*\
+  !*** ./src/icons/github.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3180505b44353fbb3a5d.svg";
+
+/***/ }),
+
+/***/ "./src/icons/html-5.png":
+/*!******************************!*\
+  !*** ./src/icons/html-5.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cfb2ba4a6b1c3de295bc.png";
+
+/***/ }),
+
+/***/ "./src/icons/icons8-vs-code.svg":
+/*!**************************************!*\
+  !*** ./src/icons/icons8-vs-code.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c95ccce217b9216b7657.svg";
+
+/***/ }),
+
+/***/ "./src/icons/js.png":
+/*!**************************!*\
+  !*** ./src/icons/js.png ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3dfb665e058d08c99f28.png";
+
+/***/ }),
+
 /***/ "./src/icons/linkedin.png":
 /*!********************************!*\
   !*** ./src/icons/linkedin.png ***!
@@ -635,6 +705,36 @@ module.exports = __webpack_require__.p + "553c66159c5672f25df6.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "d21b834035baa551e886.png";
+
+/***/ }),
+
+/***/ "./src/icons/nodejs.svg":
+/*!******************************!*\
+  !*** ./src/icons/nodejs.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3a4bfcd084800b89b5a2.svg";
+
+/***/ }),
+
+/***/ "./src/icons/prettier.svg":
+/*!********************************!*\
+  !*** ./src/icons/prettier.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7109cf6b693b9fc89dda.svg";
+
+/***/ }),
+
+/***/ "./src/icons/webpack.svg":
+/*!*******************************!*\
+  !*** ./src/icons/webpack.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "971080fbe3b9b8190f45.svg";
 
 /***/ }),
 
@@ -865,6 +965,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_github_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/github.png */ "./src/icons/github.png");
 /* harmony import */ var _icons_email_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons/email.png */ "./src/icons/email.png");
 /* harmony import */ var _icons_linkedin_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./icons/linkedin.png */ "./src/icons/linkedin.png");
+/* harmony import */ var _icons_html_5_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./icons/html-5.png */ "./src/icons/html-5.png");
+/* harmony import */ var _icons_css_3_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./icons/css-3.png */ "./src/icons/css-3.png");
+/* harmony import */ var _icons_js_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./icons/js.png */ "./src/icons/js.png");
+/* harmony import */ var _icons_nodejs_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./icons/nodejs.svg */ "./src/icons/nodejs.svg");
+/* harmony import */ var _icons_webpack_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./icons/webpack.svg */ "./src/icons/webpack.svg");
+/* harmony import */ var _icons_icons8_vs_code_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./icons/icons8-vs-code.svg */ "./src/icons/icons8-vs-code.svg");
+/* harmony import */ var _icons_github_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./icons/github.svg */ "./src/icons/github.svg");
+/* harmony import */ var _icons_browser_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./icons/browser.png */ "./src/icons/browser.png");
+/* harmony import */ var _icons_eslint_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./icons/eslint.svg */ "./src/icons/eslint.svg");
+/* harmony import */ var _icons_prettier_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./icons/prettier.svg */ "./src/icons/prettier.svg");
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -919,6 +1039,36 @@ email.setAttribute('src', _icons_email_png__WEBPACK_IMPORTED_MODULE_11__);
 
 const linkedin = document.querySelector('.linkedin-icon');
 linkedin.setAttribute('src', _icons_linkedin_png__WEBPACK_IMPORTED_MODULE_12__);
+
+const theIconHtml = document.querySelector('#icon-html');
+theIconHtml.setAttribute('src', _icons_html_5_png__WEBPACK_IMPORTED_MODULE_13__);
+
+const theIconCss = document.querySelector('#icon-css');
+theIconCss.setAttribute('src', _icons_css_3_png__WEBPACK_IMPORTED_MODULE_14__);
+
+const theIconJs = document.querySelector('#icon-js');
+theIconJs.setAttribute('src', _icons_js_png__WEBPACK_IMPORTED_MODULE_15__);
+
+const theIconNode = document.querySelector('#icon-node');
+theIconNode.setAttribute('src', _icons_nodejs_svg__WEBPACK_IMPORTED_MODULE_16__);
+
+const theIconWebpack = document.querySelector('#icon-webpack');
+theIconWebpack.setAttribute('src', _icons_webpack_svg__WEBPACK_IMPORTED_MODULE_17__);
+
+const theIconVscode = document.querySelector('#icon-vscode');
+theIconVscode.setAttribute('src', _icons_icons8_vs_code_svg__WEBPACK_IMPORTED_MODULE_18__);
+
+const theIconGithub = document.querySelector('#icon-github');
+theIconGithub.setAttribute('src', _icons_github_svg__WEBPACK_IMPORTED_MODULE_19__);
+
+const theIconDevtools = document.querySelector('#icon-devtools');
+theIconDevtools.setAttribute('src', _icons_browser_png__WEBPACK_IMPORTED_MODULE_20__);
+
+const theIconEslint = document.querySelector('#icon-eslint');
+theIconEslint.setAttribute('src', _icons_eslint_svg__WEBPACK_IMPORTED_MODULE_21__);
+
+const theIconPrettier = document.querySelector('#icon-prettier');
+theIconPrettier.setAttribute('src', _icons_prettier_svg__WEBPACK_IMPORTED_MODULE_22__);
 
 })();
 

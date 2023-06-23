@@ -215,6 +215,10 @@ a:active {
   transition-timing-function: ease-in-out;
 }
 
+.tech-list img {
+  width: 50px;
+}
+
 .resume-container {
   height: 100%;
   display: flex;
