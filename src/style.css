@@ -66,11 +66,32 @@ body::after {
   left: 0.8rem;
 }
 
+/* ! ``**Hero**`` */
+
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 50px;
+}
+
+#profile-img {
+  border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+  height: min(80vw, 300px);
+  min-width: 150px;
+  max-width: 300px;
+  object-fit: cover;
+  object-position: center 30%;
+  animation: border-slide 5s ease-in-out infinite alternate;
+}
+
+@keyframes border-slide {
+  50% {
+    border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
+  }
+  100% {
+    border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
+  }
 }
 
 h1 {
@@ -88,6 +109,8 @@ h1::before {
 h1::after {
   content: '</h1>';
 }
+
+/* ! ``**About**`` */
 
 .about {
   display: flex;
@@ -148,6 +171,26 @@ a:active {
   column-gap: 2rem;
   justify-content: center;
 }
+
+.tech-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.tech-list img {
+  width: 50px;
+}
+
+.tech-name-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ! ``**Projects**`` */
 
 .projects {
   height: auto;
@@ -220,17 +263,7 @@ a:active {
   transition-timing-function: ease-in-out;
 }
 
-.tech-list li {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-.tech-list img {
-  width: 50px;
-}
+/* ! ``**Resume**`` */
 
 .resume-container {
   height: 100%;
@@ -258,6 +291,8 @@ a:active {
   transition-timing-function: ease-in-out;
 }
 
+/* ! ``**Contact**`` */
+
 .contact-container {
   height: 90%;
   display: flex;
@@ -281,7 +316,7 @@ a:active {
 
 /* ! ``**Media Queries**`` */
 
-@media (max-width: 40em) {
+@media (max-width: 630px) {
   .card {
     opacity: 1;
   }

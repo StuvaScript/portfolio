@@ -21,10 +21,16 @@ import iconGithub from './icons/icons8-github.svg';
 import iconDevtools from './icons/browser.png';
 import iconEslint from './icons/eslint.svg';
 import iconPrettier from './icons/prettier.svg';
+import profilePic from './images/stu.jpg';
 
 // // Unused code gets this badass strikeout
 
-// * ``**Card pictures**``
+// ! ``**Profile picture**``
+
+const profileImg = document.querySelector('#profile-img');
+profileImg.setAttribute('src', profilePic);
+
+// ! ``**Card pictures**``
 
 const rpsImg = document.querySelector('.rpsImg');
 rpsImg.setAttribute('src', rps);
@@ -47,12 +53,12 @@ tttImg.setAttribute('src', ttt);
 const resPic = document.querySelector('.res-pic');
 resPic.setAttribute('src', resumePic);
 
-// * ``**PDF file**``
+// ! ``**PDF file**``
 
 const pdfResume = document.querySelector('.res-anchor');
 pdfResume.setAttribute('href', pdf);
 
-// * ``**Icons**``
+// ! ``**Icons**``
 
 const github = document.querySelector('.github-icon');
 github.setAttribute('src', bigIconGithub);
