@@ -6,7 +6,7 @@ import conv from './images/conversion-bot.png';
 import lib from './images/library.png';
 import rest from './images/restaurant-page.png';
 import ttt from './images/tictactoe.png';
-import resumePic from './images/resume-pic.png';
+import resumePic from './images/page.svg';
 import pdf from './files/My-Technical-Resume.pdf';
 import bigIconGithub from './icons/github.png';
 import bigIconEmail from './icons/email.png';
