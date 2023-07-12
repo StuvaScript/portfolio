@@ -46,6 +46,7 @@ body {
   background: var(--background) url(./images/navy.png);
   color: var(--light);
   padding: 0px 30px;
+  padding: 0px 10vw;
   position: relative;
   font-size: 0.9rem;
 }
@@ -72,13 +73,14 @@ body::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 50px;
 }
 
 #profile-img {
   border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
   height: min(80vw, 300px);
-  min-width: 150px;
+  min-width: 250px;
   max-width: 300px;
   object-fit: cover;
   object-position: center 30%;
@@ -92,6 +94,12 @@ body::after {
   100% {
     border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
   }
+}
+
+.hero-sub-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 h1 {
