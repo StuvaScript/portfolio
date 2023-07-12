@@ -22,6 +22,7 @@ import iconDevtools from './icons/browser.png';
 import iconEslint from './icons/eslint.svg';
 import iconPrettier from './icons/prettier.svg';
 import profilePic from './images/stu.jpg';
+import arrow from './icons/arrow.png';
 
 // // Unused code gets this badass strikeout
 
@@ -98,3 +99,6 @@ theIconEslint.setAttribute('src', iconEslint);
 
 const theIconPrettier = document.querySelector('#icon-prettier');
 theIconPrettier.setAttribute('src', iconPrettier);
+
+const theIconArrow = document.querySelector('.arrow');
+theIconArrow.setAttribute('src', arrow);

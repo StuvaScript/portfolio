@@ -267,7 +267,9 @@ a:active {
 
 .resume-container {
   height: 100%;
+  font-size: 1.3rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -290,6 +292,18 @@ a:active {
   transform: scale(1.1);
   transition-duration: 0.35s;
   transition-timing-function: ease-in-out;
+}
+
+.resume-text {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+
+.arrow {
+  transform: scaleX(-1);
+  margin-block-end: 10px;
 }
 
 /* ! ``**Contact**`` */
