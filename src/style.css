@@ -39,8 +39,6 @@
   color: var(--accent-color);
 }
 
-/* TODO Use max width and text center or flex center when making larger responsive design. That way the content is only so big and not stretching the entire length of the screen */
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--background) url(./images/navy.png);
@@ -48,7 +46,6 @@ body {
   padding: 0px 30px;
   padding: 0px 10vw;
   position: relative;
-  font-size: 0.9rem;
 }
 
 body > * {
@@ -77,11 +74,11 @@ body::after {
   gap: 50px;
 }
 
+/* TODO Working on adjusting the height and width of the main pic of me. The duplicates are the experimental sizes */
 #profile-img {
   border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
-  height: min(80vw, 300px);
-  min-width: 250px;
-  max-width: 300px;
+  height: min(80vw, 400px);
+  width: min(80vw, 400px);
   object-fit: cover;
   object-position: center 30%;
   animation: border-slide 5s ease-in-out infinite alternate;
@@ -189,7 +186,8 @@ a:active {
 }
 
 .tech-list img {
-  width: 50px;
+  width: 18vw;
+  max-width: 120px;
 }
 
 .tech-name-wrap {
