@@ -5,7 +5,7 @@ import cal from './images/calculatron.png';
 import conv from './images/conversion-bot.png';
 import lib from './images/library.png';
 import rest from './images/restaurant-page.png';
-import ttt from './images/tictactoe.png';
+import todo from './images/todo.png';
 import resumePic from './images/page.svg';
 import pdf from './files/My-Technical-Resume.pdf';
 import bigIconGithub from './icons/github.png';
@@ -23,8 +23,6 @@ import iconEslint from './icons/eslint.svg';
 import iconPrettier from './icons/prettier.svg';
 import profilePic from './images/stu.jpg';
 import arrow from './icons/arrow.png';
-
-// // Unused code gets this badass strikeout
 
 // ! ``**Profile picture**``
 
@@ -48,8 +46,8 @@ libImg.setAttribute('src', lib);
 const restImg = document.querySelector('.restImg');
 restImg.setAttribute('src', rest);
 
-const tttImg = document.querySelector('.tttImg');
-tttImg.setAttribute('src', ttt);
+const todoImg = document.querySelector('.todoImg');
+todoImg.setAttribute('src', todo);
 
 const resPic = document.querySelector('.res-pic');
 resPic.setAttribute('src', resumePic);
