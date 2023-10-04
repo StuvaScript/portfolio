@@ -318,7 +318,7 @@ a:active {
 .contact-container {
   height: 90%;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
 }
@@ -353,5 +353,9 @@ a:active {
 
   .card:hover > img {
     border-radius: inherit;
+  }
+
+  .contact-container {
+    flex-direction: column;
   }
 }
