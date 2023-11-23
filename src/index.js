@@ -7,7 +7,7 @@ import lib from './images/library.png';
 import rest from './images/restaurant-page.png';
 import todo from './images/todo.png';
 import resumePic from './images/page.svg';
-import pdf from './files/My-Technical-Resume.pdf';
+import pdf from './files/Resume.pdf';
 import bigIconGithub from './icons/github.png';
 import bigIconEmail from './icons/email.png';
 import bigIconLinkedIn from './icons/linkedin.png';
