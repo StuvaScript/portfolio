@@ -590,13 +590,13 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/files/My-Technical-Resume.pdf":
-/*!*******************************************!*\
-  !*** ./src/files/My-Technical-Resume.pdf ***!
-  \*******************************************/
+/***/ "./src/files/Resume.pdf":
+/*!******************************!*\
+  !*** ./src/files/Resume.pdf ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "6cac18eef9c0e6137541.pdf";
+module.exports = __webpack_require__.p + "8f995967ff5901f71839.pdf";
 
 /***/ }),
 
@@ -993,7 +993,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_restaurant_page_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/restaurant-page.png */ "./src/images/restaurant-page.png");
 /* harmony import */ var _images_todo_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/todo.png */ "./src/images/todo.png");
 /* harmony import */ var _images_page_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/page.svg */ "./src/images/page.svg");
-/* harmony import */ var _files_My_Technical_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./files/My-Technical-Resume.pdf */ "./src/files/My-Technical-Resume.pdf");
+/* harmony import */ var _files_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./files/Resume.pdf */ "./src/files/Resume.pdf");
 /* harmony import */ var _icons_github_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/github.png */ "./src/icons/github.png");
 /* harmony import */ var _icons_email_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons/email.png */ "./src/icons/email.png");
 /* harmony import */ var _icons_linkedin_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./icons/linkedin.png */ "./src/icons/linkedin.png");
@@ -1066,7 +1066,7 @@ resPic.setAttribute('src', _images_page_svg__WEBPACK_IMPORTED_MODULE_8__);
 // ! ``**PDF file**``
 
 const pdfResume = document.querySelector('.res-anchor');
-pdfResume.setAttribute('href', _files_My_Technical_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__);
+pdfResume.setAttribute('href', _files_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__);
 
 // ! ``**Icons**``
 
