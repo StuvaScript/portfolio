@@ -1,6 +1,6 @@
 import './normalize.css';
 import './style.css';
-import rps from './images/rps.png';
+import mobMen from './images/mobile-menu.png';
 import cal from './images/calculatron.png';
 import conv from './images/conversion-bot.png';
 import lib from './images/library.png';
@@ -31,8 +31,8 @@ profileImg.setAttribute('src', profilePic);
 
 // ! ``**Card pictures**``
 
-const rpsImg = document.querySelector('.rpsImg');
-rpsImg.setAttribute('src', rps);
+const mobMenImg = document.querySelector('.mobMenImg');
+mobMenImg.setAttribute('src', mobMen);
 
 const calImg = document.querySelector('.calImg');
 calImg.setAttribute('src', cal);
