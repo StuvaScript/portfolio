@@ -630,6 +630,16 @@ module.exports = __webpack_require__.p + "2e4a7982fa74697c0c64.png";
 
 /***/ }),
 
+/***/ "./src/icons/cool.svg":
+/*!****************************!*\
+  !*** ./src/icons/cool.svg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4740c3adbf3a511e905d.svg";
+
+/***/ }),
+
 /***/ "./src/icons/css-3.png":
 /*!*****************************!*\
   !*** ./src/icons/css-3.png ***!
@@ -810,16 +820,6 @@ module.exports = __webpack_require__.p + "2f9c87319c9e0b83ea5f.svg";
 
 /***/ }),
 
-/***/ "./src/images/restaurant-page.png":
-/*!****************************************!*\
-  !*** ./src/images/restaurant-page.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "e8c4b30031304600d05d.png";
-
-/***/ }),
-
 /***/ "./src/images/stu.jpg":
 /*!****************************!*\
   !*** ./src/images/stu.jpg ***!
@@ -837,6 +837,16 @@ module.exports = __webpack_require__.p + "51b1fca2647808a210d6.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "a2e29df29d8666beec67.png";
+
+/***/ }),
+
+/***/ "./src/images/weather-app-pic.png":
+/*!****************************************!*\
+  !*** ./src/images/weather-app-pic.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "44ed4924d03a6849548c.png";
 
 /***/ })
 
@@ -990,7 +1000,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_calculatron_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/calculatron.png */ "./src/images/calculatron.png");
 /* harmony import */ var _images_conversion_bot_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/conversion-bot.png */ "./src/images/conversion-bot.png");
 /* harmony import */ var _images_library_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/library.png */ "./src/images/library.png");
-/* harmony import */ var _images_restaurant_page_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/restaurant-page.png */ "./src/images/restaurant-page.png");
+/* harmony import */ var _images_weather_app_pic_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/weather-app-pic.png */ "./src/images/weather-app-pic.png");
 /* harmony import */ var _images_todo_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/todo.png */ "./src/images/todo.png");
 /* harmony import */ var _images_page_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/page.svg */ "./src/images/page.svg");
 /* harmony import */ var _files_Resume_pdf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./files/Resume.pdf */ "./src/files/Resume.pdf");
@@ -1009,6 +1019,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_prettier_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./icons/prettier.svg */ "./src/icons/prettier.svg");
 /* harmony import */ var _images_stu_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./images/stu.jpg */ "./src/images/stu.jpg");
 /* harmony import */ var _icons_arrow_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./icons/arrow.png */ "./src/icons/arrow.png");
+/* harmony import */ var _icons_cool_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./icons/cool.svg */ "./src/icons/cool.svg");
+
 
 
 
@@ -1054,8 +1066,8 @@ convImg.setAttribute('src', _images_conversion_bot_png__WEBPACK_IMPORTED_MODULE_
 const libImg = document.querySelector('.libImg');
 libImg.setAttribute('src', _images_library_png__WEBPACK_IMPORTED_MODULE_5__);
 
-const restImg = document.querySelector('.restImg');
-restImg.setAttribute('src', _images_restaurant_page_png__WEBPACK_IMPORTED_MODULE_6__);
+const weatherImg = document.querySelector('.weatherImg');
+weatherImg.setAttribute('src', _images_weather_app_pic_png__WEBPACK_IMPORTED_MODULE_6__);
 
 const todoImg = document.querySelector('.todoImg');
 todoImg.setAttribute('src', _images_todo_png__WEBPACK_IMPORTED_MODULE_7__);
@@ -1111,6 +1123,11 @@ theIconPrettier.setAttribute('src', _icons_prettier_svg__WEBPACK_IMPORTED_MODULE
 
 const theIconArrow = document.querySelector('.arrow');
 theIconArrow.setAttribute('src', _icons_arrow_png__WEBPACK_IMPORTED_MODULE_24__);
+
+// ! ``**Favicon**``
+
+const faviconImg = document.querySelector('link[rel="shortcut icon"]');
+faviconImg.setAttribute('href', _icons_cool_svg__WEBPACK_IMPORTED_MODULE_25__);
 
 })();
 

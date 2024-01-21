@@ -4,7 +4,7 @@ import mobMen from './images/mobile-menu.png';
 import cal from './images/calculatron.png';
 import conv from './images/conversion-bot.png';
 import lib from './images/library.png';
-import rest from './images/restaurant-page.png';
+import weather from './images/weather-app-pic.png';
 import todo from './images/todo.png';
 import resumePic from './images/page.svg';
 import pdf from './files/Resume.pdf';
@@ -23,6 +23,7 @@ import iconEslint from './icons/eslint.svg';
 import iconPrettier from './icons/prettier.svg';
 import profilePic from './images/stu.jpg';
 import arrow from './icons/arrow.png';
+import favicon from './icons/cool.svg';
 
 // ! ``**Profile picture**``
 
@@ -43,8 +44,8 @@ convImg.setAttribute('src', conv);
 const libImg = document.querySelector('.libImg');
 libImg.setAttribute('src', lib);
 
-const restImg = document.querySelector('.restImg');
-restImg.setAttribute('src', rest);
+const weatherImg = document.querySelector('.weatherImg');
+weatherImg.setAttribute('src', weather);
 
 const todoImg = document.querySelector('.todoImg');
 todoImg.setAttribute('src', todo);
@@ -100,3 +101,8 @@ theIconPrettier.setAttribute('src', iconPrettier);
 
 const theIconArrow = document.querySelector('.arrow');
 theIconArrow.setAttribute('src', arrow);
+
+// ! ``**Favicon**``
+
+const faviconImg = document.querySelector('link[rel="shortcut icon"]');
+faviconImg.setAttribute('href', favicon);
