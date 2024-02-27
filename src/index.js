@@ -3,7 +3,7 @@ import './style.css';
 import mobMen from './images/mobile-menu.png';
 import cal from './images/calculatron.png';
 import conv from './images/conversion-bot.png';
-import lib from './images/library.png';
+import dog from './images/dog.png';
 import weather from './images/weather-app-pic.png';
 import todo from './images/todo.png';
 import resumePic from './images/page.svg';
@@ -41,8 +41,8 @@ calImg.setAttribute('src', cal);
 const convImg = document.querySelector('.convImg');
 convImg.setAttribute('src', conv);
 
-const libImg = document.querySelector('.libImg');
-libImg.setAttribute('src', lib);
+const dogImg = document.querySelector('.dogImg');
+dogImg.setAttribute('src', dog);
 
 const weatherImg = document.querySelector('.weatherImg');
 weatherImg.setAttribute('src', weather);
