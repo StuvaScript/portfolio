@@ -780,13 +780,13 @@ module.exports = __webpack_require__.p + "74cbe8058cff65f70f1d.png";
 
 /***/ }),
 
-/***/ "./src/images/library.png":
-/*!********************************!*\
-  !*** ./src/images/library.png ***!
-  \********************************/
+/***/ "./src/images/dog.png":
+/*!****************************!*\
+  !*** ./src/images/dog.png ***!
+  \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "1070bc6c2a99abdfd8df.png";
+module.exports = __webpack_require__.p + "4ecb51399129d8afc6d7.png";
 
 /***/ }),
 
@@ -999,7 +999,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_mobile_menu_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/mobile-menu.png */ "./src/images/mobile-menu.png");
 /* harmony import */ var _images_calculatron_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/calculatron.png */ "./src/images/calculatron.png");
 /* harmony import */ var _images_conversion_bot_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/conversion-bot.png */ "./src/images/conversion-bot.png");
-/* harmony import */ var _images_library_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/library.png */ "./src/images/library.png");
+/* harmony import */ var _images_dog_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/dog.png */ "./src/images/dog.png");
 /* harmony import */ var _images_weather_app_pic_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/weather-app-pic.png */ "./src/images/weather-app-pic.png");
 /* harmony import */ var _images_todo_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/todo.png */ "./src/images/todo.png");
 /* harmony import */ var _images_page_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./images/page.svg */ "./src/images/page.svg");
@@ -1063,8 +1063,8 @@ calImg.setAttribute('src', _images_calculatron_png__WEBPACK_IMPORTED_MODULE_3__)
 const convImg = document.querySelector('.convImg');
 convImg.setAttribute('src', _images_conversion_bot_png__WEBPACK_IMPORTED_MODULE_4__);
 
-const libImg = document.querySelector('.libImg');
-libImg.setAttribute('src', _images_library_png__WEBPACK_IMPORTED_MODULE_5__);
+const dogImg = document.querySelector('.dogImg');
+dogImg.setAttribute('src', _images_dog_png__WEBPACK_IMPORTED_MODULE_5__);
 
 const weatherImg = document.querySelector('.weatherImg');
 weatherImg.setAttribute('src', _images_weather_app_pic_png__WEBPACK_IMPORTED_MODULE_6__);
